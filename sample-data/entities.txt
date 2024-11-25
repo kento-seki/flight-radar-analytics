@@ -1,0 +1,42 @@
+-----------------------
+Attributes for basic plots:
+
+Flight appearance
+- origin: Airport
+- destination: Airport
+- airline: Airline
+- flight number: string
+- scheduled time: time
+- aircraft base model: string
+
+Make tables of:
+- Airport code to name
+- Aircraft code to name
+- Airline code to name
+
+
+------------------------
+UML entities?
+
+Flight appearance
+- origin: Airport
+- destination: Airport
+- aircraft: Aircraft
+- airline: Airline
+- flight number: string
+- time of appearance: time
+
+Aircraft
+- base model: string (e.g. 737)
+- variant: string (e.g. 737-800)
+- registration: string
+
+Airline
+- name
+- ICAO code
+- IATA code
+
+Airport
+- name
+- IATA
+- ICAO
